@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "lerna": "^5.1.4"
+  },
+  "name": "root", 
+  "verion": "1.0.0", 
+
+  "scripts": {
+    "start": "lerna run start", 
+    "test": "lerna run test",
+    "new-version": "lerna-version --conventinal-commits --yes", 
+    "diff": "lerna diff"
+  }
+}
